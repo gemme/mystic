@@ -11,7 +11,7 @@ body{
 }
 .whatis{    
     height: 200px;
-    background-image: url("assets/BG-Affiliates.png");
+    background-image: url("assets/cover-mystic.png");
     background-repeat: no-repeat;    
     background-size: cover;
 }
@@ -35,7 +35,7 @@ body{
 }
 .info{
     height: 442px;
-    background-image: url("assets/feature_01.png");
+    background-image: url("assets/img-bg-mystic.png");
     background-repeat: no-repeat;    
     background-size: cover;
     background-position: 0px 60px;
@@ -75,14 +75,25 @@ body{
 .content .card_info h3{
     margin-bottom: 38px;
 }
-.city-img{
+.content .img-mystic{
     height: 150px;
-    width: 350px;
-    background-image: url("assets/new-york-city.png");
-    background-repeat: no-repeat;    
-    background-size: cover;
+    width: 350px;        
     margin: 5px 15px 5px 15px;
     border: 1px solid #979797;
+    background-repeat: no-repeat;    
+    background-size: cover;
+}
+.content .img-mystic.one{
+    background-image: url("assets/img-mystic-one.png");    
+}
+.content .img-mystic.two{
+    background-image: url("assets/img-mystic-02.png");
+}
+.content .img-mystic.three{
+    background-image: url("assets/img-mystic-03.png");
+}
+.content .img-mystic.four{
+    background-image: url("assets/img-mystic-04.png");
 }
 @media (min-width: 768px){   
     .about img{
@@ -94,6 +105,9 @@ body{
         line-height: 100px;
         vertical-align: middle;
         margin: 0;
+    }
+    .content .row{
+        margin-bottom: 30px;
     }
 }
 
@@ -123,7 +137,7 @@ body{
     .about p{            
         margin-top: 30px;
     }
-    .city-img{
+    .content .img-mystic{
         height: 120px;
         width: 320px;
         margin-left: auto;
