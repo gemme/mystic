@@ -45,14 +45,14 @@ body{
     margin-right: auto;
 }
 .card_info{
-    width: 350px;
+    /*width: 350px;*/
     height: 320px;    
     font-weight: 300;
     background-color: #333333;
     border: 1px solid #4D4D4D;
     border-radius: 2px;
     padding: 30px 36px 0 24px;
-    margin: 15px 15px 15px 15px;
+    /*margin: 15px 15px 15px 15px;*/
 }
 .paragraph{
     width: 289px;
@@ -111,7 +111,7 @@ body{
     }
 }
 
-@media (max-width: 576px){
+@media only screen and (max-width : 480px) {
     .container{
         font-size: 100%;
     }
